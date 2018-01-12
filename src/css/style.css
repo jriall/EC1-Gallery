@@ -123,6 +123,8 @@ section {
     border: none;
     cursor: pointer;
     position: relative;
+    font-size: 20px;
+    font-family: "Geosanslight", Arial;
     top: -5px; }
     .navbar .nav-icons .search-container .search-box:focus {
       transition: width 0.3s, border-radius 0.3s, background 0.3s;
@@ -215,6 +217,11 @@ section {
     background-color: #ddceca;
     display: inline-block;
     cursor: pointer; }
+    @media (max-width: 768px) {
+      .hero-image-section .hero-image-subtitle .hero-image-nav .nav-button {
+        height: 16px;
+        width: 16px;
+        border-radius: 16px; } }
     .hero-image-section .hero-image-subtitle .hero-image-nav .nav-button:nth-child(even) {
       margin-left: 5px;
       margin-right: 5px; }

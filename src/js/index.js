@@ -29,5 +29,4 @@ $(document).ready(function() {
   $(".container").click(function() {
     $("#sidenav").css("width", "0px");
   });
-  // document.addEventListener("touchstart", function(){}, true);
 });
